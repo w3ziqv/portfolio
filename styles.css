@@ -53,7 +53,9 @@ ul { list-style: none; }
 .skills { display: flex; flex-wrap: wrap; gap: 8px 16px; }
 .skills li { font-size: .875rem; color: var(--muted); }
 
-.contact__email { font-size: clamp(1.25rem, 4vw, 1.75rem); display: block; margin-bottom: 8px; text-decoration: underline; text-underline-offset: 4px; }
+.contact__email { font-size: clamp(1.25rem, 4vw, 1.75rem); display: block; margin-bottom: 16px; text-decoration: underline; text-underline-offset: 4px; }
+.contact__social { display: flex; gap: 20px; }
+.contact__social a { font-size: .75rem; text-transform: uppercase; letter-spacing: .1em; text-decoration: underline; text-underline-offset: 3px; }
 
 .site-footer { padding: 48px 0; }
 
